@@ -1,0 +1,120 @@
+# banner
+banner:
+  title: "Hi! I’m <br> Costas, <br> <small>a Business Data Engineer</small>"
+  button:
+    enable: true
+    label: "Contact Costa"
+    icon: 'ti-email'
+    URL: "mailto:voulkon93@gmail.com"
+  
+# contact 
+contact:
+  enable: true
+  title: 'Contact Costa'
+  contact_image: "images/team/contact.jpg"
+  email:
+    title: "Email"
+    email: "voulkon93@gmail.com"
+  button:
+    label: "Contact Costa"
+    icon: 'ti-email'
+    URL: "mailto:voulkon93@gmail.com"
+
+# about
+about:
+  enable : true
+  content : 
+    <p class="lead">
+    The thrill of solving and nerd spirit brought me into the data world.
+    <br>
+    An economist by training, a data engineer by vocation, I started my career as an assistant Tax Auditor (15 months) and then continued with developing Data Products & Solutions. 
+    </p>
+    <p class="lead">
+    <strong>So far, I have worked with Deloitte Greece to lighten our clients' workload through automation and develop new data services and products</strong>.
+    <br>
+    As an open-source enthusiast, I like developing code in my spare time and share it freely with the community. 
+    <br>
+    Splitting my calendar year between Athens and my home island of Lemnos has enabled me to exercise my interests in Art & Gardening.
+    </p>
+  author_image: "images/team/main-brown.jpg"
+  button:
+    enable : true
+    label : "know more"
+    URL : "about"
+
+# portfolio
+portfolio:
+  enable : true
+  title : "Data Science Portfolio"
+  item_show : 7
+  item_width_lg: 3
+  # portfolio item comes from 'data/portfolio.yml' item.
+
+
+# experience
+experience:
+  enable : true
+  title : "Experience"
+  #description: "<p class='lead'> Ex-tax, currently product </p>"
+  button:
+    icon: "ti-linkedin"
+    btnText: "Linkedin Profile"
+    URL: "https://www.linkedin.com/in/kostas-voulgaropoulos-6413a259/"
+  
+  item:      
+    - logo : "images/experience/del_twitter.png"
+      title : "Data Engineer"
+      company : "Deloitte"
+      duration : "Mar 2020 - Present"
+
+    - logo : "images/experience/del_twitter.png"
+      title : "Assistant Tax Auditor"
+      company : "Deloitte"
+      duration : "Nov 2018 - Mar 2020"
+      
+
+# education
+education:
+  enable : true
+  title : "Education"
+  item:
+    - title : "Professional Certificate in Data Science"
+      year : "2019"
+      academy : "HarvardX via Coursera"
+      
+    - title : "MSc in Auditing & Taxation"
+      year : "2018"
+      academy : "Panteion University"
+      
+    - title : "Bachelor of Public Administration"
+      year : "2016"
+      academy : "Panteion University"
+
+      
+# skill
+skill:
+  enable : true
+  title : "Skills"
+  item:
+    - title : "R"
+      progress : "90%"
+      color : "#75AADB"
+      
+    - title : "Python"
+      progress : "85%"
+      color : "#FFDF5C"
+      
+    - title : "Alteryx"
+      progress : "80%"
+      color : "#0078c0"
+      
+    - title : "Web Apps"
+      progress : "50%"
+      color : "#ffbcaa"
+
+
+# blog
+blog:
+  enable : false
+  title : "Blog"
+  # blog post comes from "content/blog" folder
